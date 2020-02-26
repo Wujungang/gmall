@@ -14,6 +14,14 @@ public interface UserService {
      */
     List<UserInfo> findAll();
 
+    void addUser(UserInfo userInfo);
+
+    void upUser(UserInfo userInfo);
+
+    void upUserByName(UserInfo userInfo);
+
+    void delUser(UserInfo userInfo);
+
 
 
 
